@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static from staticfiles %}
+
+{% block page_content %}
+<head>
+    <title>Leila Kany</title>
+    <h1>Hello world</h1>
+</head>
+<img src="{% static 'me.jpg' %}" class="img-fluid" alt="Responsive image">
+
+<body>
+
+<h2>A little bit about me</h2>
+My name is Leïla and I'm a 22 year-old french student in computer science. <br>
+I will use this blog to share content that I believe deserves to be. <br>
+Hopefully you will find something that will catch your attention!
+<br>
+<br>
+</body>
+
+{% endblock %}
